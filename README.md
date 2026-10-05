@@ -272,3 +272,7 @@ A production system should persist an internal pending/unknown state and reconci
 - Invalid requests do not create payments.
 - A declined payment is retained because it represents a valid payment attempt and bank decision.
 - The supplied Mountebank service represents the external acquiring bank.
+
+## Smoke Test Results
+
+The API was manually tested against the supplied Mountebank simulator for authorized and declined payments flows, payment retrieval, invalid request handling, and unknown payment retrieval.
